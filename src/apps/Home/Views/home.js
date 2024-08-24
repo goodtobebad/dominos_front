@@ -22,7 +22,7 @@ const Home = (props) => {
     }
 
     fetchData();
-  }, []);
+  }, [props]);
 
   const deleteMember = (id) => {
     setMemberId(id);
